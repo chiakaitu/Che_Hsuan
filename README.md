@@ -1,3 +1,7 @@
+This is a wedding website I made. I was entrusted by my junior high schoolmate Yi-Hsuan Cheng. 
+Visit http://xxxxxx.xxxx
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
