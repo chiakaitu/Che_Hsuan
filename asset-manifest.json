@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.58076e81.js",
-    "static/js/787.31646615.chunk.js": "/static/js/787.31646615.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.58076e81.js.map": "/static/js/main.58076e81.js.map",
-    "787.31646615.chunk.js.map": "/static/js/787.31646615.chunk.js.map"
+    "main.css": "/chiakaitu/Che_Hsuan/static/css/main.3d8b8665.css",
+    "main.js": "/chiakaitu/Che_Hsuan/static/js/main.5feb18ef.js",
+    "static/js/787.31646615.chunk.js": "/chiakaitu/Che_Hsuan/static/js/787.31646615.chunk.js",
+    "index.html": "/chiakaitu/Che_Hsuan/index.html",
+    "main.3d8b8665.css.map": "/chiakaitu/Che_Hsuan/static/css/main.3d8b8665.css.map",
+    "main.5feb18ef.js.map": "/chiakaitu/Che_Hsuan/static/js/main.5feb18ef.js.map",
+    "787.31646615.chunk.js.map": "/chiakaitu/Che_Hsuan/static/js/787.31646615.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.58076e81.js"
+    "static/css/main.3d8b8665.css",
+    "static/js/main.5feb18ef.js"
   ]
 }
