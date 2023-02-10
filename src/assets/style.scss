@@ -1,96 +1,151 @@
+@font-face {
+  font-family: 'myFont';
+  src: url("./ChenYuluoyan-Thin.ttf") format("truetype");
+}
+
+html {font-size:10px;}
+
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 
-  p {
-      font-size: 12px;
-  }
-
-  h4, h5, p, b, input, label {
-      line-height: 25px;
-  }
-
-  font-family: arial,
+  font-family: 'myFont', arial,
   "Microsoft JhengHei",
   "微軟正黑體",
   sans-serif;
 
   hr {
-      width: 85vw;
-      height: 1px;
-      // height: 1px;
-      // border-radius: 100%;
-      border: none;
-      background-color: red;
+    width: 85vw;
+    height: 1px;
+    // height: 1px;
+    // border-radius: 100%;
+    border: none;
+    background-color: red;
 
   }
 }
 
 .container {
   @media (min-width: 768px) {
-      width: 768px;
-      margin: 0 auto;
+    width: 768px;
+    margin: 0 auto;
 
-      p {
-          font-size: 16px;
-      }
+    font-size: 3.6rem;
   }
+
+  font-size: 2.0rem;
 
   width: 100vw;
+  background-color: rgb(243, 238, 238);
 
   .box {
-      padding: 0 5%;
-      width: 100%;
-      margin-top: 30px;
+    width: 100%;
+    padding: 5%;
 
-      .float_right {
-          display: flex;
-          justify-content: right;
-          align-items: flex-end;
-      }
+    .float_right {
+      display: flex;
+      justify-content: right;
+      align-items: flex-end;
+    }
 
-      &:not(:first-child):not(:nth-child(2)) {
-          margin-top: 200px;
-      }
+    // &:not(:first-child):not(:nth-child(2)) {
+    //   margin-top: 200px;
+    // }
   }
 }
 
-.box {
-  .photo {
-      margin: 0 auto;
-      margin-top: 15px;
-  }
+// .box {
+//   .photo {
+//     margin: 0 auto;
+//     margin-top: 15px;
+//   }
+
+//   img {
+//     display: block;
+//     width: 100%;
+//     height: auto;
+//   }
+
+//   .left {
+//     width: 50%;
+//     margin-right: 15px;
+//   }
+
+//   .right {
+//     width: 50%;
+//   }
+// }
+
+.page {
+  width: 100%;
+  // height: 100vh;
+  // padding: 5%;
+}
+
+.photo_text_box {
+  position: relative;
+  text-align: center;
+  // font-size: 20px;
 
   img {
-      display: block;
-      width: 100%;
-      height: auto;
+    width: 100%;
   }
 
-  .left {
-      width: 50%;
-      margin-right: 15px;
+  .center_text {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  .right {
-      width: 50%;
+  .bottom_right {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(-40%, -60%);
   }
-
 }
 
+.pic1_1 {
+  width: 88%;
+  position: relative;
+  z-index: 2;
+  margin-top: -30px;
+  float: right;
+}
+
+.width_50 {
+  width: 50%;
+}
+
+.width_70 {
+  width: 70%;
+}
+
+.width_90 {
+  width: 90%;
+}
 
 .display_flex {
   display: flex;
 }
 
+.text_align_left {
+  text-align: left;
+}
+
+.text_align_center {
+  text-align: center;
+}
+
 .middle {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .margin_top_20 {
@@ -109,6 +164,6 @@
   margin-top: 45px;
 }
 
-.line_height_25 {
-  line-height: 25px;
+.line_height_36 {
+  line-height: 3.6rem;
 }
