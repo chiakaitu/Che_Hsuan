@@ -1,5 +1,5 @@
 This is a wedding website I made. I was entrusted by my junior high schoolmate Yi-Hsuan Cheng. 
-Visit http://xxxxxx.xxxx
+Visit https://chiakaitu.github.io/Che_Hsuan/
 
 
 # Getting Started with Create React App
