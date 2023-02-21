@@ -129,6 +129,17 @@ html {
   }
 }
 
+.text_right {
+  text-align: right;
+}
+
+.text3_1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5%;
+}
+
 .pic1_1 {
   width: 88%;
   position: relative;
@@ -154,11 +165,24 @@ html {
   margin-bottom: 10%;
 }
 
+.pic3_1 {
+  position: relative;
+  width: 85%;
+  margin-bottom: 10%;
+}
+
 .photo2 {
   width: 83%;
   object-fit: contain;
   position: absolute;
   right: 5%;
+}
+
+.photo4 {
+  width: 93%;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
 }
 
 .width_30 {
@@ -213,10 +237,15 @@ html {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 .middle {
   margin: 0 auto;
+}
+
+.margin_right_5 {
+  margin-right: 5px;
 }
 
 .margin_top_20 {
@@ -233,6 +262,14 @@ html {
 
 .margin_top_45 {
   margin-top: 45px;
+}
+
+.flex_row_reverse {
+  flex-direction: row-reverse;
+}
+
+.flex_column {
+  flex-direction: column;
 }
 
 .test_area {

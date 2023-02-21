@@ -35,7 +35,7 @@ class App extends Component {
           </div>
         </div>
         {/* Page 2 */}
-        <div className="page">
+        <div className="page margin_top_45">
           <div className="box display_flex">
             <div className="box_left width_40 ">
               <img className='pic2_1' src={ process.env.PUBLIC_URL + '/images/pic2_1.png' } />
@@ -54,6 +54,43 @@ class App extends Component {
           <div className="margin_top_20"></div>
           <div className="display_flex text_align_center">
             <img className='width_80' src={ process.env.PUBLIC_URL + '/images/pic2_2.png' } alt="" />
+          </div>
+        </div>
+        {/* Page 3 */}
+        <div className="page margin_top_45">
+          <div className="margin_top_45"></div>
+          <div className="box display_flex">
+            <div className="box_left width_60">
+              <img className='pic3_1' src={ process.env.PUBLIC_URL + '/images/pic3_1.png' } />
+              <img className='photo4' src={ process.env.PUBLIC_URL + '/images/photo4.jpg' } />
+            </div>
+            <div className="text_align_center display_flex width_40">
+              <p>我們已成家。</p>
+            </div>
+          </div>
+          <div className="margin_top_45"></div>
+          <div className="display_flex flex_row_reverse">
+            <img className='width_50' src={ process.env.PUBLIC_URL + '/images/pic3_2.png' } />
+          </div>
+        </div>
+        <div className="page margin_top_45">
+          <div className="box display_flex flex_column">
+            <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo5.jpg' } />
+            <div className="width_100">
+              <div className="box_left width_50 margin_right_5">
+                <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo6.jpg' } />
+              </div>
+              <div className="box_right display_flex flex_column width_50">
+                <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo7.jpg' } />
+                <div className="photo_text_box text_right">
+                  <img src={ process.env.PUBLIC_URL + '/images/pic1_2.png' } />
+                  <div className="text3_1">
+                    <p>三芝</p>
+                    <p>是我們相遇的地方，</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
