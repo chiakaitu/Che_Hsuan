@@ -24,8 +24,6 @@ html {
   hr {
     width: 85vw;
     height: 1px;
-    // height: 1px;
-    // border-radius: 100%;
     border: none;
     background-color: red;
 
@@ -62,40 +60,12 @@ html {
       position: relative;
       flex-direction: column-reverse;
     }
-
-    // &:not(:first-child):not(:nth-child(2)) {
-    //   margin-top: 200px;
-    // }
   }
 }
 
 .page {
   width: 100%;
-  // height: 100vh;
-  // padding: 5%;
 }
-
-// .box {
-//   .photo {
-//     margin: 0 auto;
-//     margin-top: 15px;
-//   }
-
-//   img {
-//     display: block;
-//     width: 100%;
-//     height: auto;
-//   }
-
-//   .left {
-//     width: 50%;
-//     margin-right: 15px;
-//   }
-
-//   .right {
-//     width: 50%;
-//   }
-// }
 
 .line_height {
   line-height: 2.0rem;
@@ -107,7 +77,6 @@ html {
 .photo_text_box {
   position: relative;
   text-align: center;
-  // font-size: 20px;
 
   img {
     width: 100%;
@@ -129,6 +98,24 @@ html {
   }
 }
 
+.box3_1 {
+  display: flex;
+  margin-top: 5%;
+}
+
+.box3_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 53%;
+}
+
+.box4_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .text_right {
   text-align: right;
 }
@@ -138,6 +125,10 @@ html {
   bottom: 0;
   right: 0;
   padding: 5%;
+
+  @media screen and (max-width: 375px) {
+    font-size: 1.8rem;
+  }
 }
 
 .pic1_1 {
@@ -244,8 +235,8 @@ html {
   margin: 0 auto;
 }
 
-.margin_right_5 {
-  margin-right: 5px;
+.margin_right_3 {
+  margin-right: 3%;
 }
 
 .margin_top_20 {

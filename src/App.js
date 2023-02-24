@@ -76,12 +76,12 @@ class App extends Component {
         <div className="page margin_top_45">
           <div className="box display_flex flex_column">
             <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo5.jpg' } />
-            <div className="width_100">
-              <div className="box_left width_50 margin_right_5">
+            <div className="box3_1">
+              <div className="width_60 margin_right_3">
                 <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo6.jpg' } />
               </div>
-              <div className="box_right display_flex flex_column width_50">
-                <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo7.jpg' } />
+              <div className="box3_2">
+                <img src={ process.env.PUBLIC_URL + '/images/photo7.jpg' } />
                 <div className="photo_text_box text_right">
                   <img src={ process.env.PUBLIC_URL + '/images/pic1_2.png' } />
                   <div className="text3_1">
@@ -90,6 +90,19 @@ class App extends Component {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="page margin_top_45">
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="display_flex">
+            <div className="width_50 margin_right_3">
+              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo8.jpg' } />
+            </div>
+            <div className="box4_1 width_50">
+              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo9.jpg' } />
+              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo10.jpg' } />
             </div>
           </div>
         </div>
