@@ -63,6 +63,16 @@ html {
   }
 }
 
+.box_m {
+  width: 100%;
+  padding: 8%;
+}
+
+.box_s {
+  width: 100%;
+  padding: 0 13%;
+}
+
 .page {
   width: 100%;
 }
@@ -143,6 +153,12 @@ html {
   margin-bottom: -3%;
 }
 
+.text6_1 {
+  padding: 0 8%;
+  text-align: right;
+  margin-bottom: -6%;
+}
+
 .pic1_1 {
   width: 88%;
   position: relative;
@@ -174,17 +190,58 @@ html {
   margin-bottom: 10%;
 }
 
-.pic5 {
+.pic5_1 {
   position: absolute;
   right: -50%;
   top: -5%;
 }
 
-.pic6 {
+.pic5_2 {
   position: absolute;
   left: -45%;
   bottom: -10%;
   transform: scale(0.8) rotateY(180deg);
+}
+
+.pic6 {
+  position: absolute;
+  left: -30%;
+  bottom: 15%;
+}
+
+.pic7_1 {
+  position: absolute;
+  right: -45%;
+  top: -3%;
+  transform: scale(0.8) rotate(55deg);
+}
+
+.pic7_2 {
+  position: absolute;
+  left: -30%;
+  bottom: -10%;
+  transform: scale(0.8) rotate(175deg);
+}
+
+.pic10_1_1 {
+  position: absolute;
+  top: -13%;
+  left: -30%;
+  transform: scale(0.5);
+}
+
+.pic10_1_2 {
+  position: absolute;
+  bottom: 15%;
+  right: -25%;
+  transform: scale(0.5) rotateY(180deg);
+}
+
+.pic10_1_3 {
+  position: absolute;
+  bottom: -10%;
+  left: -50%;
+  transform: scale(0.5);
 }
 
 .photo2 {
@@ -256,12 +313,31 @@ html {
   justify-content: center;
 }
 
+.text_align_center_bottom {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: end;
+}
+
 .middle {
   margin: 0 auto;
 }
 
+.margin_auto {
+  margin: auto;
+}
+
 .margin_right_3 {
   margin-right: 3%;
+}
+
+.margin_top_minus5 {
+  margin-top: -5%;
+}
+
+.margin_top_minus13 {
+  margin-top: -13%;
 }
 
 .margin_top_20 {
@@ -303,4 +379,8 @@ html {
 
 .overflow_hidden {
   overflow: hidden;
+}
+
+.padding_5 {
+  padding: 5% 0;
 }

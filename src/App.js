@@ -96,7 +96,7 @@ class App extends Component {
         </div>
         {/* Page 5 */}
         <div className="page margin_top_45 relative overflow_hidden">
-          <div className="display_flex width_100 pic5">
+          <div className="display_flex width_100 pic5_1">
             <img src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
           </div>
           <div className="margin_top_45"></div>
@@ -120,7 +120,7 @@ class App extends Component {
           <div className="width_100 text5_2">
             <p>走過大街小巷，</p>
           </div>
-          <div className="display_flex width_100 pic6">
+          <div className="display_flex width_100 pic5_2">
             <img src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
           </div>
           <div className="box display_flex">
@@ -129,6 +129,141 @@ class App extends Component {
             </div>
             <div className="width_40">
               <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo12.jpg' } />
+            </div>
+          </div>
+        </div>
+        {/* Page 6 */}
+        <div className="page margin_top_45 relative">
+          <div className="margin_top_45"></div>
+          <div className="box_m display_flex">
+            <div className="width_40 display_flex text_align_center_bottom padding_5">
+              <p>一起嘻笑打鬧，</p>
+            </div>
+            <div className="width_60">
+              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo13.jpg' } />
+            </div>
+          </div>
+          <div className="box_m margin_top_minus13">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo14.jpg' } />
+          </div>
+          <div className="margin_top_30"></div>
+          <div className="width_100 text6_1">
+            <p>也曾經歷難過與低潮。</p>
+          </div>
+          <div className="box_m">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo15.jpg' } />
+          </div>
+          <div className="display_flex width_100 pic6">
+            <img src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
+          </div>
+        </div>
+        {/* Page 7 */}
+        <div className="page margin_top_45 relative overflow_hidden">
+          <div className="margin_top_45"></div>
+          <div className="box_s">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo16.jpg' } />
+          </div>
+          <div className="box display_flex text_align_center">
+            <p>慢慢地，</p>
+            <p>成了彼此心中的小太陽，</p>
+            <p>也學著為對方撐起雨傘。</p>
+          </div>
+          <div className="box_s">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo17.jpg' } />
+          </div>
+          <div className="display_flex width_100 pic7_1">
+            <img src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
+          </div>
+          <div className="display_flex width_100 pic7_2">
+            <img src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
+          </div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+        </div>
+        {/* Page 8 */}
+        <div className="page margin_top_45">
+          <div className="box display_flex text_align_center">
+            <p>一起走過的這些日子，</p>
+            <p>讓我們決定，</p>
+            <p>成為彼此的家人。</p>
+          </div>
+          <div className="box_m margin_top_minus5">
+              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo18.jpg' } />
+          </div>
+        </div>
+        {/* Page 9 */}
+        <div className="page margin_top_45">
+          <div className="margin_top_45"></div>
+          <div className="box_s">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo19.jpg' } />
+          </div>
+          <div className="box_s margin_top_20">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo20.jpg' } />
+          </div>
+          <div className="box_s margin_top_20">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo21.jpg' } />
+          </div>
+        </div>
+        {/* Page 10 */}
+        <div className="page margin_top_45 relative overflow_hidden">
+          <div className="margin_top_45"></div>
+          <div className="box display_flex text_align_center">
+            <p>謝謝大家，</p>
+            <p>陪伴我們經歷各個成長階段，</p>
+            <p>想邀請你們，</p>
+            <p>與我們一起回顧：</p>
+          </div>
+          <div className="display_flex width_100 pic10_1_1">
+            <img src={ process.env.PUBLIC_URL + '/images/pic10_1.png' } />
+          </div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="box display_flex text_align_center">
+            <p>甜蜜的愛情，</p>
+            <p>溫暖的親情，</p>
+            <p>真摯的友情，</p>
+            <p>當我擁有這三種感情，</p>
+            <p>我已是這世界上最幸福的人。</p>
+          </div>
+          <div className="display_flex width_100 pic10_1_2">
+            <img src={ process.env.PUBLIC_URL + '/images/pic10_1.png' } />
+          </div>
+          <div className="display_flex width_100 pic10_1_3">
+            <img src={ process.env.PUBLIC_URL + '/images/pic10_1.png' } />
+          </div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+        </div>
+        {/* Page 11 */}
+        <div className="page">
+          <div className="box width_100 display_flex">
+            <div className="width_50 margin_right_3">
+              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo22.jpg' } />
+            </div>
+            <div className="width_50">
+              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo23.jpg' } />
+            </div>
+          </div>
+          <div className="box margin_top_20">
+            <div className="photo_text_box width_70 margin_auto">
+              <img src={ process.env.PUBLIC_URL + '/images/pic11_2.png' } />
+              <div className="center_text">
+                <p>未來的日子，</p>
+                <p>願我們不論遇到什麼</p>
+                <p>都能攜手共度，</p>
+                <p>並保有笑容及純真。</p>
+                <br /><br />
+                <p>往後也將以夫妻的身份，</p>
+                <p>請大家多多指教：）</p>
+              </div>
             </div>
           </div>
         </div>
