@@ -114,6 +114,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 .text_right {
@@ -129,6 +130,17 @@ html {
   @media screen and (max-width: 375px) {
     font-size: 1.8rem;
   }
+}
+
+.text5_1 {
+  padding: 0 5%;
+  margin-top: -3%;
+}
+
+.text5_2 {
+  padding: 0 5%;
+  text-align: right;
+  margin-bottom: -3%;
 }
 
 .pic1_1 {
@@ -160,6 +172,19 @@ html {
   position: relative;
   width: 85%;
   margin-bottom: 10%;
+}
+
+.pic5 {
+  position: absolute;
+  right: -50%;
+  top: -5%;
+}
+
+.pic6 {
+  position: absolute;
+  left: -45%;
+  bottom: -10%;
+  transform: scale(0.8) rotateY(180deg);
 }
 
 .photo2 {
@@ -265,4 +290,17 @@ html {
 
 .test_area {
   border: 5px solid red;
+}
+
+.z_1 {
+  position: relative;
+  z-index: 1;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow_hidden {
+  overflow: hidden;
 }

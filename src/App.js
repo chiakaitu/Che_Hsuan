@@ -73,6 +73,7 @@ class App extends Component {
             <img className='width_50' src={ process.env.PUBLIC_URL + '/images/pic3_2.png' } />
           </div>
         </div>
+        {/* Page 4 */}
         <div className="page margin_top_45">
           <div className="box display_flex flex_column">
             <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo5.jpg' } />
@@ -93,16 +94,41 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="page margin_top_45">
+        {/* Page 5 */}
+        <div className="page margin_top_45 relative overflow_hidden">
+          <div className="display_flex width_100 pic5">
+            <img src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
+          </div>
           <div className="margin_top_45"></div>
           <div className="margin_top_45"></div>
-          <div className="display_flex">
+          <div className="margin_top_45"></div>
+          <div className="box display_flex">
             <div className="width_50 margin_right_3">
-              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo8.jpg' } />
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo8.jpg' } />
             </div>
             <div className="box4_1 width_50">
-              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo9.jpg' } />
-              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo10.jpg' } />
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo9.jpg' } />
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo10.jpg' } />
+            </div>
+          </div>
+          <div className="width_100 text5_1">
+            <p>一起吃小吃美食，</p>
+          </div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="margin_top_45"></div>
+          <div className="width_100 text5_2">
+            <p>走過大街小巷，</p>
+          </div>
+          <div className="display_flex width_100 pic6">
+            <img src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
+          </div>
+          <div className="box display_flex">
+            <div className="width_60 margin_right_3">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo11.jpg' } />
+            </div>
+            <div className="width_40">
+              <img className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo12.jpg' } />
             </div>
           </div>
         </div>
