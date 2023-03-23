@@ -82,7 +82,7 @@ class App extends Component {
                 <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo6.jpg' } />
               </div>
               <div className="box3_2">
-                <img src={ process.env.PUBLIC_URL + '/images/photo7.jpg' } />
+                <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo7.jpg' } />
                 <div className="photo_text_box text_right">
                   <img src={ process.env.PUBLIC_URL + '/images/pic1_2.png' } />
                   <div className="text3_1">
