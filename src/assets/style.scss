@@ -244,6 +244,13 @@ html {
   transform: scale(0.5);
 }
 
+.pic11_1 {
+  position: absolute;
+  bottom: -35%;
+  right: -65%;
+  transform: scale(0.5) translate(-50%, -50%);
+}
+
 .photo2 {
   width: 83%;
   object-fit: contain;
@@ -384,3 +391,22 @@ html {
 .padding_5 {
   padding: 5% 0;
 }
+
+// ---------- For Youtube start ---------- //
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+// ---------- For Youtube end ---------- //

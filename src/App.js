@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import handleSubmit from './handleSubmit.js';
+import YoutubeEmbed from "./component/YoutubeEmbed";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
+
+  submitHandler = () => {
+    handleSubmit('123');
   }
 
   render() {
@@ -11,6 +14,9 @@ class App extends Component {
         {/* Page 1 */}
         <div className="page">
           <div className="box">
+            <div>
+              <button onClick={ this.submitHandler }>按我</button>
+            </div>
             <div className="photo_text_box width_50">
               <img src={ process.env.PUBLIC_URL + '/images/pic1_1.png' } />
               <div className="center_text">With love and thanks</div>
@@ -217,13 +223,10 @@ class App extends Component {
           <div className="display_flex width_100 pic10_1_1">
             <img src={ process.env.PUBLIC_URL + '/images/pic10_1.png' } />
           </div>
-          <div className="margin_top_45"></div>
-          <div className="margin_top_45"></div>
-          <div className="margin_top_45"></div>
-          <div className="margin_top_45"></div>
-          <div className="margin_top_45"></div>
-          <div className="margin_top_45"></div>
-          <div className="margin_top_45"></div>
+          <div className="display_flex width_100 pic10_1_2">
+            <img src={ process.env.PUBLIC_URL + '/images/pic10_1.png' } />
+          </div>
+          <YoutubeEmbed embedId="TbhgQXTPGB8" />
           <div className="margin_top_45"></div>
           <div className="box display_flex text_align_center">
             <p>甜蜜的愛情，</p>
@@ -231,9 +234,6 @@ class App extends Component {
             <p>真摯的友情，</p>
             <p>當我擁有這三種感情，</p>
             <p>我已是這世界上最幸福的人。</p>
-          </div>
-          <div className="display_flex width_100 pic10_1_2">
-            <img src={ process.env.PUBLIC_URL + '/images/pic10_1.png' } />
           </div>
           <div className="display_flex width_100 pic10_1_3">
             <img src={ process.env.PUBLIC_URL + '/images/pic10_1.png' } />
@@ -252,7 +252,7 @@ class App extends Component {
               <img className='width_100' src={ process.env.PUBLIC_URL + '/images/photo23.jpg' } />
             </div>
           </div>
-          <div className="box margin_top_20">
+          <div className="box margin_top_20 relative">
             <div className="photo_text_box width_70 margin_auto">
               <img src={ process.env.PUBLIC_URL + '/images/pic11_2.png' } />
               <div className="center_text">
@@ -264,6 +264,9 @@ class App extends Component {
                 <p>往後也將以夫妻的身份，</p>
                 <p>請大家多多指教：）</p>
               </div>
+            </div>
+            <div className="display_flex width_100 pic11_1">
+              <img src={ process.env.PUBLIC_URL + '/images/pic11_1.png' } />
             </div>
           </div>
         </div>
