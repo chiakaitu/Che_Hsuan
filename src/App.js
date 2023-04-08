@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import handleSubmit from './handleSubmit.js';
-import YoutubeEmbed from "./component/YoutubeEmbed";
+import YoutubeEmbed from './component/YoutubeEmbed';
+import SecretPage from './component/SecretPage';
 
 class App extends Component {
-
-  submitHandler = () => {
-    handleSubmit('123');
-  }
 
   render() {
     return (
@@ -14,9 +10,6 @@ class App extends Component {
         {/* Page 1 */}
         <div className="page">
           <div className="box">
-            <div>
-              <button onClick={ this.submitHandler }>按我</button>
-            </div>
             <div className="photo_text_box width_50">
               <img src={ process.env.PUBLIC_URL + '/images/pic1_1.png' } />
               <div className="center_text">With love and thanks</div>
@@ -262,7 +255,9 @@ class App extends Component {
                 <p>並保有笑容及純真。</p>
                 <br /><br />
                 <p>往後也將以夫妻的身份，</p>
-                <p>請大家多多指教：）</p>
+                <p>請大家多多指教
+                  <span onClick={ this.submitHandler }>：）</span>
+                </p>
               </div>
             </div>
             <div className="display_flex width_100 pic11_1">
