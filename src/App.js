@@ -1,23 +1,31 @@
 import React, { Component } from 'react';
 import YoutubeEmbed from './component/YoutubeEmbed';
-import SecretPage from './component/SecretPage';
+import HandleSubmit from './component/HandleSubmit';
+import { FaSearch } from 'react-icons/fa';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showSecretPage: false
+      showSecretPage: false,
+      inputValue: '',
+      answer: ''
     }
     this.changeFlagStatus = this.changeFlagStatus.bind(this);
   }
 
+  submitHandler(inputData) {
+    HandleSubmit(inputData).then(
+      (success) => {
+        let result = success['content'];
+        this.setState({ answer: result }, () => {console.log('^^^^^ answer:', this.state.answer);});
+      }
+    );
+  }
+
   changeFlagStatus() {
-    console.log(this.state);
     let returnFlag = !this.state.showSecretPage;
-    this.setState({ showSecretPage: returnFlag });
-    setTimeout(() => {
-      console.log('^^^^^ showSecretPage:', this.state.showSecretPage);
-    }, 0);
+    this.setState({ showSecretPage: returnFlag, inputValue: '', answer: '' });
   }
 
   render() {
@@ -283,9 +291,23 @@ class App extends Component {
           </div>
         </div>
         {/* Secret Page */}
-        <div className={`secretPage ${this.state.showSecretPage ? '' : 'hidden'}`}>
-          <img className='width_100' src={ process.env.PUBLIC_URL + '/images/secret_page.png' } />
-          <div className='closeBtn' onClick={this.changeFlagStatus}></div>
+        <div className={`${this.state.showSecretPage ? '' : 'hidden'}`}>
+          <div className="secretPage">
+            <div className='relative'>
+              <img className='width_100' src={ process.env.PUBLIC_URL + '/images/secret_page.png' } />
+              <div className="answer">
+                <p>{this.state.answer}</p>
+              </div>
+            </div>
+            <div className='closeBtn' onClick={this.changeFlagStatus}></div>
+          </div>
+          <div className='input_block'>
+            <input type="text" size="36" maxLength="30"
+              placeholder='小線索：找找桌上屬於你的神祕文字' required
+              value={this.state.inputValue}
+              onChange={(event) => {this.setState({inputValue: event.target.value})}} />
+            <FaSearch className='search_button' onClick={() => {this.submitHandler(this.state.inputValue)}} />
+          </div>
         </div>
       </div>
     )

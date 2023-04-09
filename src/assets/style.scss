@@ -424,17 +424,31 @@ html {
 
 .secretPage {
   width: 100%;
-  height: 100%;
+  // height: 100%;
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -25%);
+  transform: translate(-50%, -50%);
   z-index: 999;
 
   @media (min-width: 768px) {
     width: 768px;
     margin: 0 auto;
-    transform: translate(-50%, -35%);
+  }
+
+  .answer {
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p {
+      font-family: arial,
+      "Microsoft JhengHei",
+      "微軟正黑體",
+      sans-serif;
+    }
   }
 
   .closeBtn {
@@ -450,11 +464,53 @@ html {
       height: 35px;
       top: 35px;
       right: 124px;
-    }  
+    }
   }
-
 }
 
-.secretPage.hidden {
+.input_block {
+  display: flex;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  z-index: 999;
+  border-radius: 1rem;
+  background-color: #e8cfcb;
+
+  @media (min-width: 768px) {
+    top: 92%;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 1.8rem;
+    border: 2px solid #888;
+    border-radius: 1rem;
+    margin-right: 10px;
+
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+    
+    @media (max-width: 374px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .search_button {
+    width: auto;
+    height: auto;
+    transform: scaleX(-1);
+    padding: 10px;
+    border: 2px solid #888;
+    border-radius: 1rem;
+    background-color: #fff;
+    color: #e3c1b8;
+  }
+}
+
+.hidden {
   display: none;
 }

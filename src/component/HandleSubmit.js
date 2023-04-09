@@ -2,25 +2,34 @@ import db from "../firebase";
 
 const HandleSubmit = (inputData) => {
 
-    // let data = {
-    //     testData: testdata
-    // }
+    return new Promise((resolve, reject) => {
 
-    try {
-        // console.log('^^^^^ in handleSubmit.js');
-        // db.collection('testdata').add(data);
+        // let data = {
+        //     secretPage: secretPage
+        // }
+        let output = {};
 
-        const getData = async () => {
-            const doc = await db.collection('testdata').where('secretPwd', '==', inputData).get();
-            doc.forEach((item) => {
-                console.log('item.data()', item.data());
-            });
+        try {
+            // console.log('^^^^^ in handleSubmit.js');
+            // db.collection('secretPage').add(data);
+
+            const getData = async () => {
+                const doc = await db.collection('secretPage').where('secretPwd', '==', inputData).get();
+                doc.forEach((item) => {
+                    output = item.data();
+                });
+                if (output.hasOwnProperty('content')) {
+                    resolve(output);
+                } else {
+                    resolve({content: '猜錯了，再想想~'});
+                }
+            }
+
+            getData();
+        } catch (err) {
+            console.log(err)
         }
-
-        getData();
-    } catch (err) {
-        console.log(err)
-    }
+    });
 }
 
 export default HandleSubmit
