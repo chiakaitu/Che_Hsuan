@@ -3,10 +3,27 @@ import YoutubeEmbed from './component/YoutubeEmbed';
 import SecretPage from './component/SecretPage';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showSecretPage: false
+    }
+    this.changeFlagStatus = this.changeFlagStatus.bind(this);
+  }
+
+  changeFlagStatus() {
+    console.log(this.state);
+    let returnFlag = !this.state.showSecretPage;
+    this.setState({ showSecretPage: returnFlag });
+    setTimeout(() => {
+      console.log('^^^^^ showSecretPage:', this.state.showSecretPage);
+    }, 0);
+  }
 
   render() {
     return (
-      <div className="container">
+      <div className={`container`}>
+        <div className={`${this.state.showSecretPage ? 'cover' : ''}`} />
         {/* Page 1 */}
         <div className="page">
           <div className="box">
@@ -219,7 +236,7 @@ class App extends Component {
           <div className="display_flex width_100 pic10_1_2">
             <img src={ process.env.PUBLIC_URL + '/images/pic10_1.png' } />
           </div>
-          <YoutubeEmbed embedId="TbhgQXTPGB8" />
+          <YoutubeEmbed embedId="RH5ZUTMs7Dc" />
           <div className="margin_top_45"></div>
           <div className="box display_flex text_align_center">
             <p>甜蜜的愛情，</p>
@@ -256,7 +273,7 @@ class App extends Component {
                 <br /><br />
                 <p>往後也將以夫妻的身份，</p>
                 <p>請大家多多指教
-                  <span onClick={ this.submitHandler }>：）</span>
+                  <span onClick={ this.changeFlagStatus }>：）</span>
                 </p>
               </div>
             </div>
@@ -264,6 +281,11 @@ class App extends Component {
               <img src={ process.env.PUBLIC_URL + '/images/pic11_1.png' } />
             </div>
           </div>
+        </div>
+        {/* Secret Page */}
+        <div className={`secretPage ${this.state.showSecretPage ? '' : 'hidden'}`}>
+          <img className='width_100' src={ process.env.PUBLIC_URL + '/images/secret_page.png' } />
+          <div className='closeBtn' onClick={this.changeFlagStatus}></div>
         </div>
       </div>
     )
