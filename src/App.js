@@ -66,7 +66,7 @@ class App extends Component {
               <img className='photo2' src={ process.env.PUBLIC_URL + '/images/photo2.jpg' } />
             </div>
             <div className="box_right width_60">
-              <LazyLoadImage src={ process.env.PUBLIC_URL + '/images/photo3.jpg' } />
+              <img src={ process.env.PUBLIC_URL + '/images/photo3.jpg' } />
             </div>
           </div>
           <div className="margin_top_45"></div>
