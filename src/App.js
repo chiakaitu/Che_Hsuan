@@ -39,7 +39,7 @@ class App extends Component {
               <img src={ process.env.PUBLIC_URL + '/images/pic1_1.png' } />
               <div className="center_text">With love and thanks</div>
             </div>
-            <img className="pic1_1" src={process.env.PUBLIC_URL + '/images/photo1.jpg'} />
+            <img className="pic1_1" src={process.env.PUBLIC_URL + '/images/archive/photo1.jpg'} />
           </div>
           <div className="margin_top_20"></div>
           <div className="photo_text_box width_90 middle">
@@ -63,10 +63,10 @@ class App extends Component {
           <div className="box display_flex">
             <div className="box_left width_40 ">
               <img className='pic2_1' src={ process.env.PUBLIC_URL + '/images/pic2_1.png' } />
-              <img className='photo2' src={ process.env.PUBLIC_URL + '/images/photo2.jpg' } />
+              <img className='photo2' src={ process.env.PUBLIC_URL + '/images/archive/photo2.jpg' } />
             </div>
             <div className="box_right width_60">
-              <img src={ process.env.PUBLIC_URL + '/images/photo3.jpg' } />
+              <img src={ process.env.PUBLIC_URL + '/images/archive/photo3.jpg' } />
             </div>
           </div>
           <div className="margin_top_45"></div>
@@ -86,7 +86,7 @@ class App extends Component {
           <div className="box display_flex">
             <div className="box_left width_60">
               <LazyLoadImage className='pic3_1' src={ process.env.PUBLIC_URL + '/images/pic3_1.png' } />
-              <LazyLoadImage className='photo4' src={ process.env.PUBLIC_URL + '/images/photo4.jpg' } />
+              <LazyLoadImage className='photo4' src={ process.env.PUBLIC_URL + '/images/archive/photo4.jpg' } />
             </div>
             <div className="text_align_center display_flex width_40">
               <p>我們已成家。</p>
@@ -100,13 +100,13 @@ class App extends Component {
         {/* Page 4 */}
         <div className="page margin_top_45">
           <div className="box display_flex flex_column">
-            <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/photo5.jpg' } />
+            <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/archive/photo5.jpg' } />
             <div className="box3_1">
               <div className="width_60 margin_right_3">
-                <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/photo6.jpg' } />
+                <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/archive/photo6.jpg' } />
               </div>
               <div className="box3_2">
-                <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/photo7.jpg' } />
+                <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/archive/photo7.jpg' } />
                 <div className="photo_text_box text_right">
                   <LazyLoadImage src={ process.env.PUBLIC_URL + '/images/pic1_2.png' } />
                   <div className="text3_1">
@@ -128,11 +128,11 @@ class App extends Component {
           <div className="margin_top_45"></div>
           <div className="box display_flex">
             <div className="width_50 margin_right_3">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo8.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo8.jpg' } />
             </div>
             <div className="box4_1 width_50">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo9.jpg' } />
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo10.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo9.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo10.jpg' } />
             </div>
           </div>
           <div className="width_100 text5_1">
@@ -149,10 +149,10 @@ class App extends Component {
           </div>
           <div className="box display_flex">
             <div className="width_60 margin_right_3">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo11.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo11.jpg' } />
             </div>
             <div className="width_40">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo12.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo12.jpg' } />
             </div>
           </div>
         </div>
@@ -164,18 +164,18 @@ class App extends Component {
               <p>一起嘻笑打鬧，</p>
             </div>
             <div className="width_60">
-              <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/photo13.jpg' } />
+              <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/archive/photo13.jpg' } />
             </div>
           </div>
           <div className="box_m margin_top_minus13">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo14.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo14.jpg' } />
           </div>
           <div className="margin_top_30"></div>
           <div className="width_100 text6_1">
             <p>也曾經歷難過與低潮。</p>
           </div>
           <div className="box_m">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo15.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo15.jpg' } />
           </div>
           <div className="display_flex width_100 pic6">
             <LazyLoadImage src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
@@ -185,7 +185,7 @@ class App extends Component {
         <div className="page margin_top_45 relative overflow_hidden">
           <div className="margin_top_45"></div>
           <div className="box_s">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo16.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo16.jpg' } />
           </div>
           <div className="box display_flex text_align_center">
             <p>慢慢地，</p>
@@ -193,7 +193,7 @@ class App extends Component {
             <p>也學著為對方撐起雨傘。</p>
           </div>
           <div className="box_s">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo17.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo17.jpg' } />
           </div>
           <div className="display_flex width_100 pic7_1">
             <LazyLoadImage src={ process.env.PUBLIC_URL + '/images/pic567.png' } />
@@ -213,20 +213,20 @@ class App extends Component {
             <p>成為彼此的家人。</p>
           </div>
           <div className="box_m margin_top_minus5">
-              <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/photo18.jpg' } />
+              <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/archive/photo18.jpg' } />
           </div>
         </div>
         {/* Page 9 */}
         <div className="page margin_top_45">
           <div className="margin_top_45"></div>
           <div className="box_s">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo19.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo19.jpg' } />
           </div>
           <div className="box_s margin_top_20">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo20.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo20.jpg' } />
           </div>
           <div className="box_s margin_top_20">
-              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/photo21.jpg' } />
+              <LazyLoadImage className='width_100 z_1' src={ process.env.PUBLIC_URL + '/images/archive/photo21.jpg' } />
           </div>
         </div>
         {/* Page 10 */}
@@ -264,10 +264,10 @@ class App extends Component {
         <div className="page">
           <div className="box width_100 display_flex">
             <div className="width_50 margin_right_3">
-              <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/photo22.jpg' } />
+              <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/archive/photo22.jpg' } />
             </div>
             <div className="width_50">
-              <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/photo23.jpg' } />
+              <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/archive/photo23.jpg' } />
             </div>
           </div>
           <div className="box margin_top_20 relative">
