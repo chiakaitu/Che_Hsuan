@@ -308,7 +308,9 @@ class App extends Component {
                   <FaSearch className='search_button' onClick={() => { this.submitHandler(this.state.inputValue) }} />
                 </div>
               </div>
-              <div className='answer'>{this.state.answer}</div>
+              <div className='answer'>
+                <p>{this.state.answer}</p>
+              </div>
             </div>
           </div>
         </div>
