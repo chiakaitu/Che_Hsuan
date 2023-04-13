@@ -299,7 +299,7 @@ class App extends Component {
               {/* popup 視窗 */}
               <div className='relative'>
                 <div className='closeBtn' onClick={this.changeFlagStatus}></div>
-                <img className='width_100' src={process.env.PUBLIC_URL + '/images/secret_page.png'} />
+                <img className='width_100' src={process.env.PUBLIC_URL + '/images/archive/secret_page.png'} />
                 <div className='input_block'>
                   <input type="text" size="36" maxLength="30"
                     placeholder='小線索：找找桌上屬於你的神祕文字' required
