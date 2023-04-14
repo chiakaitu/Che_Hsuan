@@ -108,7 +108,7 @@ class App extends Component {
               <div className="box3_2">
                 <LazyLoadImage className='width_100' src={ process.env.PUBLIC_URL + '/images/archive/photo7.jpg' } />
                 <div className="photo_text_box text_right">
-                  <LazyLoadImage src={ process.env.PUBLIC_URL + '/images/pic1_2.png' } />
+                  <img src={ process.env.PUBLIC_URL + '/images/pic1_2.png' } />
                   <div className="text3_1">
                     <p>三芝</p>
                     <p>是我們相遇的地方，</p>
