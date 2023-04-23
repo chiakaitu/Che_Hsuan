@@ -3,6 +3,11 @@
   src: url("./ChenYuluoyan-Thin.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'myFontAlt';
+  src: url("./HuaKangXiuFeng.ttf") format("truetype");
+}
+
 html {
   font-size: 10px;
 }
@@ -435,6 +440,7 @@ html {
     border: 2px solid #888;
     border-radius: 1rem;
     margin-right: 10px;
+    font-family: 'myFontAlt', arial, "Microsoft JhengHei", "微軟正黑體", sans-serif;
 
     @media (min-width: 768px) {
       font-size: 3rem;
@@ -532,6 +538,7 @@ html {
   transform: translate(-50%, -50%);
   overflow-wrap: break-word;
   overflow-y: scroll;
+  font-family: 'myFontAlt', arial, "Microsoft JhengHei", "微軟正黑體", sans-serif;
 }
 
 .closeBtn {
