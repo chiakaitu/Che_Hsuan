@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Che_Hsuan/static/css/main.e29fd2d0.css",
+    "main.css": "/Che_Hsuan/static/css/main.227abefa.css",
     "main.js": "/Che_Hsuan/static/js/main.9601963d.js",
     "static/js/787.31646615.chunk.js": "/Che_Hsuan/static/js/787.31646615.chunk.js",
     "static/media/HuaKangXiuFeng.ttf": "/Che_Hsuan/static/media/HuaKangXiuFeng.b61d0f35eeb3168e6c16.ttf",
     "static/media/ChenYuluoyan-Thin.ttf": "/Che_Hsuan/static/media/ChenYuluoyan-Thin.fbbc56c60f5b066a2d56.ttf",
     "index.html": "/Che_Hsuan/index.html",
-    "main.e29fd2d0.css.map": "/Che_Hsuan/static/css/main.e29fd2d0.css.map",
+    "main.227abefa.css.map": "/Che_Hsuan/static/css/main.227abefa.css.map",
     "main.9601963d.js.map": "/Che_Hsuan/static/js/main.9601963d.js.map",
     "787.31646615.chunk.js.map": "/Che_Hsuan/static/js/787.31646615.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e29fd2d0.css",
+    "static/css/main.227abefa.css",
     "static/js/main.9601963d.js"
   ]
 }
