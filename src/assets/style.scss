@@ -534,11 +534,13 @@ html {
   left: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
   transform: translate(-50%, -50%);
   overflow-wrap: break-word;
   overflow-y: scroll;
-  font-family: 'myFontAlt', arial, "Microsoft JhengHei", "微軟正黑體", sans-serif;
+  p {
+    font-family: 'myFontAlt', arial, "Microsoft JhengHei", "微軟正黑體", sans-serif;
+  }
 }
 
 .closeBtn {
